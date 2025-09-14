@@ -1,0 +1,40 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Part 1: Button Hover Animation */
+.animated-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.animated-button:hover {
+    transform: scale(1.2) rotate(5deg);
+    background-color: #2ecc71;
+}
+
+/* Part 3: Box for JS-triggered animation */
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: #e74c3c;
+    margin-top: 20px;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+}
+
+/* Class added dynamically via JS */
+.animate {
+    transform: translateX(300px) rotate(360deg);
+    background-color: #f1c40f;
+}

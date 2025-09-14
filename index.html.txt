@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS & JS Interactive Animations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>CSS & JavaScript Animation Demo</h1>
+
+    <!-- Part 1: Button Hover Animation -->
+    <section>
+        <h2>Hover Animation</h2>
+        <button class="animated-button">Hover Me!</button>
+    </section>
+
+    <!-- Part 2: JavaScript Functions Example -->
+    <section>
+        <h2>Function Example</h2>
+        <button id="calculateBtn">Calculate Square</button>
+        <input type="number" id="numberInput" placeholder="Enter a number">
+        <p id="result"></p>
+    </section>
+
+    <!-- Part 3: JS-Triggered Animation -->
+    <section>
+        <h2>Box Animation</h2>
+        <button id="animateBtn">Animate Box</button>
+        <div id="box"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
